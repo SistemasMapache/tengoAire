@@ -426,17 +426,17 @@ Visores web & mobile / Georeferenciación / Spatial analytics / Geocoding, marke
 <script>
 
 var tour = new Tour({
-   template: '<div class="popover" role="tooltip"> <div class="arrow"></div> <h3 class="popover-title"></h3> <div class="popover-content"></div> <div class="popover-navigation"> <div class="btn-group"> <button class="btn btn-sm btn-default" data-role="prev">&laquo; Previo</button> <button class="btn btn-sm btn-default" data-role="next">Siguente &raquo;</button> <button class="btn btn-sm btn-default" data-role="pause-resume" data-pause-text="Pause" data-resume-text="Resume">Pause</button> </div> <button class="btn btn-sm btn-default" data-role="end">Finalizar tour</button> </div> </div>',
+   template: '<div class="popover" role="tooltip"> <div class="arrow"></div> <h3 class="popover-title"></h3> <div class="popover-content"></div> <div class="popover-navigation"> <div class="btn-group"> <button class="btn btn-sm btn-default" data-role="prev">&laquo; Previo</button> <button class="btn btn-sm btn-default" data-role="next">Siguiente &raquo;</button> <button class="btn btn-sm btn-default" data-role="pause-resume" data-pause-text="Pause" data-resume-text="Resume">Pause</button> </div> <button class="btn btn-sm btn-default" data-role="end">Finalizar tour</button> </div> </div>',
   steps: [
   {
     element: ".sidebar_carga",
     title: "Mis Aires",
-    content: "Acá podes informar los aires que tenes en tu casa/oficina/etc..."
+    content: "Acá podes informar los aires que tenés en tu casa/oficina/etc..."
   },
   {
     element: ".estadistica_button",
     title: "Estadistica",
-    content: "Busca tu cuadra y obtené la estadistica de la zona"
+    content: "Buscá tu cuadra y obtené la estadistica de la zona"
   },
    {
     element: ".twitter_button",
